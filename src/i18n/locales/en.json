@@ -1,0 +1,109 @@
+{
+    "header": {
+        "home": "Home",
+        "about_us": "About Us",
+        "whyus": "Why Us?",
+        "projects": "Projects",
+        "name": "New Metal"
+    },
+    "landing": {
+        "vision_heading": "New Metal – Your Partner in Construction and Innovation",
+        "vision_description": "At New Metal, we’re more than a metal construction company – we’re a vision of excellence and a commitment to redefining quality standards. Since our founding, we’ve been delivering innovative solutions that combine engineering precision with sustainability, leaving a lasting mark on every project we undertake.",
+        "contact_us": "Get in Touch",
+        "materials_heading": "Committed to Quality Materials",
+        "materials_description": "We use premium materials to ensure exceptional performance and long-lasting results.",
+        "read_more": "Learn More"
+    },
+    "about": {
+        "heading": "About Us",
+        "description": "New Metal is a leading company in the field of metal constructions and integrated contracting. Since its establishment, the company has been committed to delivering high-quality projects that adhere to the highest engineering standards. With a focus on meeting client aspirations, New Metal continuously strives to foster innovation and achieve excellence.",
+        "read_more": "Learn More"
+    },
+    "analyze": {
+        "heading": "Latest Analytics",
+        "description": "A quick overview of your recent performance, including clients, projects, and locations.",
+        "clients": {
+            "title": "Client",
+            "label": "Number of clients this year"
+        },
+        "projects": {
+            "title": "Project",
+            "label": "Number of projects this year"
+        },
+        "places": {
+            "title": "Location",
+            "label": "Number of locations this year"
+        }
+    },
+    "projects": {
+        "heading": "Our Latest Projects",
+        "view_all": "View All"
+    },
+
+    "whyus": {
+        "heading": "Why Us?",
+        "description": "Our mission is to improve lives by constructing the buildings and infrastructure communities rely on, ensuring a better and more sustainable future for everyone.",
+        "contact_us": "Get in Touch"
+    },
+    "footer": {
+        "contact_us": "Contact Us",
+        "description": "We welcome queries from all our stakeholders and would like to hear from you",
+        "address": {
+            "heading": "Address",
+            "text": "12345, Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit."
+        },
+        "useful_links": {
+            "heading": "Useful Links",
+            "sitemap": "Site Map",
+            "cookies": "Cookie Policy",
+            "privacy_notice": "Privacy Policy",
+            "modern_slavery_statement": "Modern Slavery Statement",
+            "accessibility": "Accessibility"
+        },
+        "copyright": "All rights reserved © Abdullah Shaltout { year }",
+        "social_media": {
+            "twitter": "Twitter",
+            "linkedin": "LinkedIn",
+            "facebook": "Facebook",
+            "instagram": "Instagram"
+        }
+    },
+    "about_page": {
+        "company_intro": "About the Company",
+        "company_description": "New Metal is a leader in the field of metal construction and integrated contracting. Since its establishment, it has been committed to delivering high-quality projects according to the highest engineering standards to meet client aspirations and enhance innovation and excellence.",
+        "mission_title": "Our Mission",
+        "mission_description": "We aim to achieve leadership in the field of metal construction by providing innovative services based on high quality, commitment to deadlines, and complete customer satisfaction.",
+        "vision_title": "Our Vision",
+        "vision_description": "To become the first choice for customers in the field of metal construction and contracting by enhancing innovation, adhering to global standards, and focusing on environmental and social sustainability.",
+        "services": {
+            "heading": "Our Services",
+            "description": "We offer a wide range of specialized design and construction services, utilizing the latest technologies to meet our clients' needs with the highest quality.",
+            "list": [
+                {
+                    "heading": "Construction of Fixed and Mobile Office Spaces",
+                    "description": "We provide design and construction services for fully equipped office spaces, both fixed and mobile."
+                },
+                {
+                    "heading": "Construction of Agricultural Greenhouses",
+                    "description": "Design and construction of agricultural greenhouses with complete equipment to ensure the best results."
+                },
+                {
+                    "heading": "Integrated Works",
+                    "description": "We offer comprehensive solutions that cover all client needs in construction and design."
+                },
+                {
+                    "heading": "Supply and Installation of Metal Structures and Warehouses",
+                    "description": "Supply and installation of all types of metal structures, canopies, trusses, and warehouses."
+                },
+                {
+                    "heading": "Canopy and Truss Coverings",
+                    "description": "Supply and installation of all types of coverings needed for canopies, trusses, and warehouses."
+                },
+                {
+                    "heading": "Raising and Constructing Light Floors",
+                    "description": "We implement projects for raising and constructing pre-fabricated light floors according to the highest standards."
+                }
+            ]
+        }
+    }
+}
