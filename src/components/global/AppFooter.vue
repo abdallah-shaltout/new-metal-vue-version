@@ -27,7 +27,7 @@
             </h3>
             <a href="https://maps.app.goo.gl/4CNaBeGBxeHMJ3w66" target="_blank">
               <p class="text-sm leading-6 fs gap-1 primary-link mt-6">
-                <placeIcon class="w-4 !inline" />
+                <placeIcon class="w-5 !inline" />
                 {{ $t('footer.address.text') }}
               </p>
             </a>
