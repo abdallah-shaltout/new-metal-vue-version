@@ -1,6 +1,13 @@
 {
-  "whatsappNumber": "+201554673489",
-  "email": "abdallah@gmail.com",
-  "phone": "+201554673489",
-  "facebook": "https://www.facebook.com/abdullahshaltout"
+    "whatsappNumber": {
+        "value": "+201111273999",
+        "patternValue": "+20 111 127 3999"
+    },
+    "phone": {
+        "value": "+201222169713",
+        "patternValue": "+20 122 216 9713"
+    },
+    "facebook": "https://www.facebook.com/profile.php?id=100063790156033",
+    "location1": "https://maps.app.goo.gl/3TZSvmXkgTxRFnzj6",
+    "location2": "https://maps.app.goo.gl/3TZSvmXkgTxRFnzj6"
 }

@@ -90,7 +90,7 @@ function i18nRouteMiddleware(
     const lang = routeLang ?? currentLocale()
     switchLanguage(lang)
 
-    document.title = i18n.global.t("header.name")
+    document.title = i18n.global.t('header.name')
     next()
 }
 

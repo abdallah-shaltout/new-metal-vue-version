@@ -21,63 +21,63 @@
 <script lang="ts" setup></script>
 
 <style>
-    .app-menu-btn svg {
-        @apply absolute w-full h-full transition-all duration-300 ease-in-out;
-        fill: none;
-        stroke: #121212;
-        stroke-width: 5;
-        stroke-linecap: round;
-        transition: all 0.3s ease-in-out;
-    }
-    .app-menu-btn.active svg {
-        stroke: #fff;
-    }
+.app-menu-btn svg {
+    @apply absolute w-full h-full transition-all duration-300 ease-in-out;
+    fill: none;
+    stroke: #121212;
+    stroke-width: 5;
+    stroke-linecap: round;
+    transition: all 0.3s ease-in-out;
+}
+.app-menu-btn.active svg {
+    stroke: #fff;
+}
 
-    .app-menu-btn svg.x {
-        @apply w-full h-full;
-        opacity: 0;
-        transform: scale(0);
-    }
+.app-menu-btn svg.x {
+    @apply w-full h-full;
+    opacity: 0;
+    transform: scale(0);
+}
 
-    .app-menu-btn.active svg.burger {
-        @apply w-full h-full;
-        opacity: 0;
-        transform: scale(0.5);
-    }
+.app-menu-btn.active svg.burger {
+    @apply w-full h-full;
+    opacity: 0;
+    transform: scale(0.5);
+}
 
-    .app-menu-btn.active svg.x {
-        opacity: 1;
-        transform: scale(1);
-    }
+.app-menu-btn.active svg.x {
+    opacity: 1;
+    transform: scale(1);
+}
 
-    .app-menu-btn .line {
-        transition: all 0.3s ease-in-out;
-    }
+.app-menu-btn .line {
+    transition: all 0.3s ease-in-out;
+}
 
-    .app-menu-btn .line1 {
-        stroke-dasharray: 40 139;
-        stroke-dashoffset: 0;
-    }
+.app-menu-btn .line1 {
+    stroke-dasharray: 40 139;
+    stroke-dashoffset: 0;
+}
 
-    .app-menu-btn .line2 {
-        stroke-dasharray: 40 180;
-        stroke-dashoffset: 0;
-    }
+.app-menu-btn .line2 {
+    stroke-dasharray: 40 180;
+    stroke-dashoffset: 0;
+}
 
-    .app-menu-btn .line3 {
-        stroke-dasharray: 40 139;
-        stroke-dashoffset: 0;
-    }
+.app-menu-btn .line3 {
+    stroke-dasharray: 40 139;
+    stroke-dashoffset: 0;
+}
 
-    .app-menu-btn.active .line1 {
-        stroke-dashoffset: -98;
-    }
+.app-menu-btn.active .line1 {
+    stroke-dashoffset: -98;
+}
 
-    .app-menu-btn.active .line2 {
-        stroke-dashoffset: -180;
-    }
+.app-menu-btn.active .line2 {
+    stroke-dashoffset: -180;
+}
 
-    .app-menu-btn.active .line3 {
-        stroke-dashoffset: -98;
-    }
+.app-menu-btn.active .line3 {
+    stroke-dashoffset: -98;
+}
 </style>

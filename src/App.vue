@@ -1,9 +1,9 @@
 <template>
-  <main>
-    <AppHeader />
-    <RouterView />
-    <AppFooter />
-  </main>
+    <main>
+        <AppHeader />
+        <RouterView />
+        <AppFooter />
+    </main>
 </template>
 <script setup lang="ts">
 import AppHeader from '@/components/global/AppHeader.vue'

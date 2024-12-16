@@ -2,106 +2,103 @@
     "header": {
         "home": "Home",
         "about_us": "About Us",
-        "whyus": "Why Us?",
-        "projects": "Projects",
+        "projects": "Our Projects",
         "name": "New Metal"
     },
     "landing": {
-        "vision_heading": "New Metal – Your Partner in Construction and Innovation",
-        "vision_description": "At New Metal, we’re more than a metal construction company – we’re a vision of excellence and a commitment to redefining quality standards. Since our founding, we’ve been delivering innovative solutions that combine engineering precision with sustainability, leaving a lasting mark on every project we undertake.",
-        "contact_us": "Get in Touch",
-        "materials_heading": "Committed to Quality Materials",
-        "materials_description": "We use premium materials to ensure exceptional performance and long-lasting results.",
-        "read_more": "Learn More"
+        "vision_heading": "New Metal - Your Partner in Construction and Innovation",
+        "vision_description": "At New Metal, we are not just a metal construction company; we are visionaries committed to redefining quality standards. Since our inception, we've provided innovative solutions that combine engineering precision with sustainability, leaving a lasting impact on every project we undertake.",
+        "contact_us": "Contact Us",
+        "materials_heading": "We Use Premium Materials!",
+        "materials_description": "The quality of the materials we use ensures exceptional performance and long-lasting results.",
+        "read_more": "Read More"
     },
     "about": {
         "heading": "About Us",
-        "description": "New Metal is a leading company in the field of metal constructions and integrated contracting. Since its establishment, the company has been committed to delivering high-quality projects that adhere to the highest engineering standards. With a focus on meeting client aspirations, New Metal continuously strives to foster innovation and achieve excellence.",
-        "read_more": "Learn More"
+        "description": "New Metal is a leading company in metal construction and integrated contracting. Since its foundation, the company has achieved full integration with its own factories, a specialized engineering office, and highly trained workforce. We are committed to delivering high-quality projects that meet the highest engineering standards while focusing on innovation and excellence to exceed client expectations.",
+        "read_more": "Read More"
     },
     "analyze": {
-        "heading": "Latest Analytics",
+        "heading": "Latest Statistics",
         "description": "A quick overview of your recent performance, including clients, projects, and locations.",
         "clients": {
-            "title": "Client",
-            "label": "Number of clients this year"
+            "title": "Clients",
+            "label": "Number of clients served this year"
         },
         "projects": {
-            "title": "Project",
-            "label": "Number of projects this year"
+            "title": "Projects",
+            "label": "Number of projects completed this year"
         },
         "places": {
-            "title": "Location",
-            "label": "Number of locations this year"
+            "title": "Locations",
+            "label": "Number of locations covered this year"
         }
     },
     "projects": {
-        "heading": "Our Latest Projects",
-        "view_all": "View All"
+        "heading": "Our Featured Projects",
+        "view_all": "View More"
+    },
+
+    "outClients": {
+        "heading": "Our Valued Clients",
+        "description": "Our clients are the cornerstone of our success. We take pride in the trust placed in us by numerous companies and organizations as we strive to deliver innovative solutions and exceptional quality that exceed their expectations."
     },
 
     "whyus": {
-        "heading": "Why Us?",
-        "description": "Our mission is to improve lives by constructing the buildings and infrastructure communities rely on, ensuring a better and more sustainable future for everyone.",
-        "contact_us": "Get in Touch"
+        "heading": "Why Choose Us?",
+        "description": "At New Metal, we offer integrated solutions that combine superior quality, engineering expertise, and timely delivery. With our dedicated team and in-house manufacturing facilities, we ensure efficient project execution that meets global standards.",
+        "contact_us": "Contact Us"
     },
     "footer": {
         "contact_us": "Contact Us",
-        "description": "We welcome queries from all our stakeholders and would like to hear from you",
+        "description": "We welcome inquiries from all stakeholders and look forward to hearing from you.",
         "address": {
-            "heading": "Address",
-            "text": "12345, Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit."
+            "heading": "Our Addresses",
+            "location-1": {
+                "heading": "Office",
+                "text": "Street 306, Block 295, Fifth District, New Maadi"
+            },
+            "location-2": {
+                "heading": "Factory",
+                "text": "Plot No. 271, Model B - Southern Zone - 6 Million m2, Complex 2, 10th of Ramadan City"
+            }
         },
-        "useful_links": {
-            "heading": "Useful Links",
-            "sitemap": "Site Map",
-            "cookies": "Cookie Policy",
-            "privacy_notice": "Privacy Policy",
-            "modern_slavery_statement": "Modern Slavery Statement",
-            "accessibility": "Accessibility"
-        },
-        "copyright": "All rights reserved © Abdullah Shaltout { year }",
-        "social_media": {
-            "twitter": "Twitter",
-            "linkedin": "LinkedIn",
-            "facebook": "Facebook",
-            "instagram": "Instagram"
-        }
+        "copyright": "All rights reserved to New Metal { year }"
     },
     "about_page": {
-        "company_intro": "About the Company",
-        "company_description": "New Metal is a leader in the field of metal construction and integrated contracting. Since its establishment, it has been committed to delivering high-quality projects according to the highest engineering standards to meet client aspirations and enhance innovation and excellence.",
+        "company_intro": "Company Overview",
+        "company_description": "New Metal is a leading specialist in metal construction and integrated contracting. We deliver high-quality projects that meet the highest engineering standards through the synergy of our in-house factories, expert engineering office, and professional workforce, ensuring client satisfaction, innovation, and excellence.",
         "mission_title": "Our Mission",
-        "mission_description": "We aim to achieve leadership in the field of metal construction by providing innovative services based on high quality, commitment to deadlines, and complete customer satisfaction.",
+        "mission_description": "Our mission is to lead the metal construction industry by providing innovative services, exceptional quality, and an unwavering commitment to deadlines, ensuring the utmost client satisfaction.",
         "vision_title": "Our Vision",
-        "vision_description": "To become the first choice for customers in the field of metal construction and contracting by enhancing innovation, adhering to global standards, and focusing on environmental and social sustainability.",
+        "vision_description": "To become the first choice and most trusted partner in metal construction and contracting by adhering to global standards, fostering innovation, and implementing sustainable solutions that respect both the environment and society.",
         "services": {
             "heading": "Our Services",
-            "description": "We offer a wide range of specialized design and construction services, utilizing the latest technologies to meet our clients' needs with the highest quality.",
+            "description": "We provide a wide range of specialized services in design and implementation using the latest technologies to meet our clients' needs with the highest quality standards.",
             "list": [
                 {
-                    "heading": "Construction of Fixed and Mobile Office Spaces",
-                    "description": "We provide design and construction services for fully equipped office spaces, both fixed and mobile."
-                },
-                {
-                    "heading": "Construction of Agricultural Greenhouses",
-                    "description": "Design and construction of agricultural greenhouses with complete equipment to ensure the best results."
-                },
-                {
-                    "heading": "Integrated Works",
-                    "description": "We offer comprehensive solutions that cover all client needs in construction and design."
+                    "heading": "Integrated Solutions",
+                    "description": "We offer comprehensive solutions covering all client needs in construction and design."
                 },
                 {
                     "heading": "Supply and Installation of Metal Structures and Warehouses",
-                    "description": "Supply and installation of all types of metal structures, canopies, trusses, and warehouses."
+                    "description": "We supply and install all types of metal structures, sheds, trusses, and warehouses."
                 },
                 {
                     "heading": "Canopy and Truss Coverings",
-                    "description": "Supply and installation of all types of coverings needed for canopies, trusses, and warehouses."
+                    "description": "We provide and install all types of coverings required for sheds, trusses, and warehouses."
                 },
                 {
-                    "heading": "Raising and Constructing Light Floors",
-                    "description": "We implement projects for raising and constructing pre-fabricated light floors according to the highest standards."
+                    "heading": "Lightweight Floor Additions and Construction",
+                    "description": "We execute prefabricated lightweight floor additions and constructions adhering to the highest standards."
+                },
+                {
+                    "heading": "Construction of Fixed and Mobile Administrative Offices",
+                    "description": "We design and execute fully equipped administrative offices, whether fixed or mobile."
+                },
+                {
+                    "heading": "Construction of Agricultural Greenhouses",
+                    "description": "We design and build agricultural greenhouses with complete setups to ensure optimal results."
                 }
             ]
         }
