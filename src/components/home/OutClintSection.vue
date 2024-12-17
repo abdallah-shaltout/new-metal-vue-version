@@ -4,7 +4,7 @@
             <h2 class="text-3xl section-title w-fit mx-auto font-bold text-darker">
                 {{ $t('outClients.heading') }}
             </h2>
-            <p class="text-dark mt-5 text-center text-sm w-3/5 sm:w-full mx-auto">
+            <p class="text-dark mt-5 text-center text-sm w-3/5 md:w-nine sm:w-full mx-auto">
                 {{ $t('outClients.description') }}
             </p>
             <ul class="grid grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 sm:gap-2 mt-8">
