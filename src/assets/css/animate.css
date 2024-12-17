@@ -23,6 +23,21 @@
     opacity: 0;
 }
 
+/* page transition */
+
+.page-transition-enter-active,
+.page-transition-leave-active {
+    transition:
+        opacity 0.3s ease,
+        filter 0.3s ease;
+}
+
+.page-transition-enter-from,
+.page-transition-leave-to {
+    opacity: 0;
+    filter: blur(10px);
+}
+
 /* app header */
 
 .show-link-animate {

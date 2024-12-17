@@ -43,7 +43,9 @@
         @apply bg-black/40 absolute  inset-0 w-full h-full backdrop-blur-lg -z-1;
     }
     .btn-primary {
-        @apply px-5 py-2 fc gap-2 rounded-full bg-primary text-light trans hover:bg-primary/80 font-semibold shadow-lg shadow-blue-500/40;
+        @apply px-5 py-2 fc gap-2 rounded-full bg-primary text-light trans hover:bg-primary/80 font-semibold shadow-lg shadow-blue-500/40
+        md:px-4 md:py-1.5 md:!text-sm
+        ;
     }
 
     .btn-with-icon {
@@ -59,11 +61,16 @@
         @apply;
     }
     .section-title {
-        @apply relative hover:before:w-full before:transition-all duration-500 ease-in-out before:absolute before:left-1/2 before:-translate-x-1/2 before:-bottom-1.5 before:translate-y-full before:rounded-full before:h-1.5 before:w-1/2 
-           before:bg-primary  before:content-[''];
+        @apply text-3xl font-bold text-darker relative hover:before:w-full before:transition-all duration-500 ease-in-out before:absolute before:left-1/2 before:-translate-x-1/2 before:-bottom-1.5 before:translate-y-full before:rounded-full before:h-1.5 before:w-1/2 
+        before:bg-primary  before:content-['']
+        lg:text-2xl lg:before:h-1
+        md:text-xl md:before:h-[3px]
     }
     .section-title-start {
         @apply w-fit before:!right-0 ltr:before:!left-0 before:!translate-x-0 section-title;
+    }
+    .section-title-center {
+        @apply section-title mx-auto w-fit;
     }
     .social-media-icon {
         @apply w-9 h-9 sm:w-8 sm:h-8 rounded-full flex-center outline-1 outline outline-primary trans text-primary hover:bg-primary hover:text-light;

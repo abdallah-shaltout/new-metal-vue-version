@@ -2,7 +2,7 @@
     <section class="flex-center">
         <div class="px-4 flex-center flex-col">
             <div class="flex-between w-full">
-                <h2 class="text-3xl font-bold text-darker section-title-start">
+                <h2 class="section-title-start">
                     {{ $t('projects.heading') }}
                 </h2>
                 <RouterLink
@@ -14,15 +14,15 @@
                 >
                     <button class="whitespace-nowrap btn-primary btn-with-icon">
                         <span>{{ $t('projects.view_all') }}</span>
-                        <span class="rounded-full w-6 h-6 bg-white flex-center text-darker trans">
-                            <arrowTopIcon class="w-4 rtl:rotate-[270deg]" />
+                        <span class="rounded-full w-6 h-6 md:w-5 md:h-5 bg-white flex-center text-darker trans">
+                            <arrowTopIcon class="w-4 md:w-3 rtl:rotate-[270deg]" />
                         </span>
                     </button>
                 </RouterLink>
             </div>
 
             <Carousel v-bind="config" class="mt-14 effect-slider-1">
-                <Slide v-for="item in projectsJson.filter((item) => item.isSpecial)" :key="item.id">
+                <Slide v-for="item in projectStore.spciealProjects" :key="item.id">
                     <RouterLink
                         :to="
                             $localePath({
@@ -54,8 +54,9 @@
 <script lang="ts" setup>
 import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
-import projectsJson from '@/assets/data/projects.json'
 import arrowTopIcon from '@/assets/icons/arrow-top.svg'
+import { useProjectStore } from '@/store/project.store'
+const projectStore = useProjectStore()
 const config = {
     itemsToShow: 1,
     transition: 500,

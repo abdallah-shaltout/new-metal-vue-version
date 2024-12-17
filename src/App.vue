@@ -1,7 +1,11 @@
 <template>
     <main>
         <AppHeader />
-        <RouterView />
+        <RouterView v-slot="{ Component, route }">
+            <Transition name="page-transition" mode="out-in">
+                <component :is="Component" :key="route.fullPath" />
+            </Transition>
+        </RouterView>
         <AppFooter />
     </main>
 </template>

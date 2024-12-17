@@ -1,6 +1,6 @@
 <template>
     <section class="p-10 relative -z-2 flex-center flex-col bg-darker rounded-xl text-light">
-        <h2 class="font-bold text-3xl w-fit mx-auto section-title mb-2">
+        <h2 class="section-title-center text-light mb-2">
             {{ $t('analyze.heading') }}
         </h2>
         <p class="mt-4 text-center text-light/70">

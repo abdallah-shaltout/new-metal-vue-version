@@ -4,8 +4,8 @@
             <div class="fs gap-4 sm:flex-col">
                 <div class="flex-1 fs gap-4 sm:flex-col">
                     <div class="flex-1 sm:w-full">
-                        <h3 class="text-2xl font-bold text-darker section-title-start mb-6">
-                            <placeIcon class="w-6 !inline" />
+                        <h3 class="section-title-start mb-6">
+                            <placeIcon class="w-6 !inline text-primary" />
                             {{ $t('footer.address.heading') }}
                         </h3>
                         <a
@@ -35,14 +35,15 @@
                     </div>
                 </div>
                 <div class="flex-1 sm:w-full">
-                    <h3 class="text-3xl font-bold section-title-start mb-6 text-darker">
+                    <h3 class="section-title-start mb-6">
+                        <phoneIcon class="w-6 !inline -scale-x-100 text-primary" />
                         {{ $t('footer.contact_us') }}
                     </h3>
                     <p class="mb-8">
                         {{ $t('footer.description') }}
                     </p>
-                    <div class="flex-center gap-2  text-lg sm:text-base">
-                        <p class="fc gap-2 ">
+                    <div class="flex-center gap-2 text-lg sm:text-base">
+                        <p class="fc gap-2">
                             <a
                                 :href="`tel:${appsettings.phone.value}`"
                                 style="direction: ltr"
@@ -51,7 +52,7 @@
                             >
                             <phoneIcon class="w-6 text-primary" />
                         </p>
-                        <p class="fc gap-2 ">
+                        <p class="fc gap-2">
                             <a
                                 class="font-bold trans hover:text-green-500"
                                 :href="`tel:${appsettings.whatsappNumber.value}`"

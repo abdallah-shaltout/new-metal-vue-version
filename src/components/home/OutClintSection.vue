@@ -1,7 +1,7 @@
 <template>
     <section>
         <div class="container">
-            <h2 class="text-3xl section-title w-fit mx-auto font-bold text-darker">
+            <h2 class="section-title-center">
                 {{ $t('outClients.heading') }}
             </h2>
             <p class="text-dark mt-5 text-center text-sm w-3/5 md:w-nine sm:w-full mx-auto">

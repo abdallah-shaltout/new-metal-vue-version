@@ -3,23 +3,19 @@
         <div class="container">
             <div class="fs gap-4 sm:flex-col-reverse">
                 <div class="flex-4">
-                    <h2 class="text-4xl sm:text-2xl font-bold text-darker section-title-start">
+                    <h2 class="section-title-start">
                         {{ $t('about_page.company_intro') }}
                     </h2>
                     <p class="mt-8 text-dark text-justify text-lg">
                         {{ $t('about_page.company_description') }}
                     </p>
-                    <h2
-                        class="text-4xl sm:text-2xl font-bold text-darker section-title-start !mt-14"
-                    >
+                    <h2 class="section-title-start !mt-14">
                         {{ $t('about_page.mission_title') }}
                     </h2>
                     <p class="mt-8 text-dark text-justify text-lg">
                         {{ $t('about_page.mission_description') }}
                     </p>
-                    <h2
-                        class="text-4xl sm:text-2xl font-bold text-darker section-title-start !mt-14"
-                    >
+                    <h2 class="section-title-start !mt-14">
                         {{ $t('about_page.vision_title') }}
                     </h2>
                     <p class="mt-8 text-dark text-justify text-lg">
@@ -49,7 +45,7 @@
     </section>
     <section class="py-14 w-full bg-darker text-light">
         <div class="container">
-            <h2 class="font-bold text-3xl w-fit mx-auto section-title mb-2">
+            <h2 class="section-title-center text-light mb-2">
                 {{ $t('about_page.services.heading') }}
             </h2>
             <p class="mt-4 text-center text-light/70">
@@ -74,7 +70,7 @@
                         <component :is="item.icon" class="w-12 text-light lg:w-10 font-bold" />
 
                         <h4
-                            class="text-xl section-title group-hover:before:bg-light group-hover:before:w-full mb-6 text-center"
+                            class="section-title text-light group-hover:before:bg-light group-hover:before:w-full mb-6 text-center"
                         >
                             {{ item.heading }}
                         </h4>
@@ -146,6 +142,6 @@ const services = computed(() =>
 
 <style>
 body {
-    @apply bg-slate-50;
+    background-color: theme('colors.light');
 }
 </style>

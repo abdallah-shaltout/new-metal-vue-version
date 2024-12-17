@@ -7,7 +7,7 @@
                 >
                     {{ $t('landing.vision_heading') }}
                 </h2>
-                <p class="text-sm my-4 md:mt-2 text-dark">
+                <p class="text-sm my-4 md:mt-2 text-dark sm:text-justify">
                     {{ $t('landing.vision_description') }}
                 </p>
                 <a :href="`https://wa.me/${appSettings.whatsappNumber.value}`" target="_blank">

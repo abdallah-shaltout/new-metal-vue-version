@@ -1,11 +1,11 @@
 <template>
     <section>
         <div class="fl-5">
-            <h2 class="text-3xl section-title-start font-bold text-darker">
+            <h2 class="section-title-start">
                 {{ $t('whyus.heading') }}
             </h2>
             <div class="fc gap-2 sm:flex-col">
-                <p class="text-dark text-pretty">
+                <p class="text-dark text-pretty sm:text-justify">
                     {{ $t('whyus.description') }}
                 </p>
                 <a href="https://wa.me/201554673489" class="sm:ml-auto">
@@ -20,9 +20,9 @@
                 @click="showVideo = true"
             >
                 <button
-                    class="abs-center w-14 h-14 flex-center rounded-full bg-slate-50 shadow trans group-hover:bg-primary text-dark group-hover:text-white z-2"
+                    class="abs-center md:w-10 md:h-10 w-14 h-14 flex-center rounded-full bg-slate-50 shadow trans group-hover:bg-primary text-dark group-hover:text-white z-2"
                 >
-                    <playIcon class="w-6" />
+                    <playIcon class="w-6 md:w-5" />
                 </button>
                 <img
                     loading="lazy"

@@ -1,9 +1,7 @@
 <template>
     <section class="py-14 w-full bg-slate-50">
         <div class="container">
-            <h1 class="text-3xl font-bold text-darker section-title w-fit mx-auto mb-16">
-                معرض اعمالنا
-            </h1>
+            <h1 class="section-title-center mb-16">معرض اعمالنا</h1>
             <ul class="w-full grid grid-cols-12 gap-5">
                 <li
                     v-motion-pop-bottom
@@ -35,17 +33,20 @@
 </template>
 
 <script lang="ts" setup>
-import projectsJson from '@/assets/data/projects.json'
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
+import { useProjectStore } from '@/store/project.store'
+const projectStore = useProjectStore()
 const route = useRoute()
 const projects = computed(() => {
-    const projects = projectsJson
+    const projects = projectStore.projects
     const section = route.query.section
     if (section) {
-        return projects.filter(
-            (project) => project.sections.includes(section as never) || !project.sections.length,
-        )
+        const res = projectStore.getProjectsBySection(section as string)
+        if (!res.length) {
+            return projects
+        }
+        return res
     }
     return projects
 })
@@ -53,6 +54,6 @@ const projects = computed(() => {
 
 <style>
 body {
-    background-color: theme('colors.slate.50');
+    background-color: theme('colors.light');
 }
 </style>
