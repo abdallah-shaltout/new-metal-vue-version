@@ -56,27 +56,63 @@
                     class="aspect-video w-full bg-rose-500 rounded-lg overflow-hidden"
                     v-for="item in project?.images"
                     :key="item"
+                    @click="
+                        () => {
+                            showImagePreview = true
+                            imagePreview = `/projects/${id}/${item}`
+                        }
+                    "
                 >
                     <img
                         :src="`/projects/${id}/${item}`"
                         alt=""
-                        class="w-full h-full object-cover"
+                        class="w-full h-full object-cover t-trans hover:scale-125 hover:rotate-6 cursor-pointer"
                     />
                 </li>
             </ul>
+
+            <AppDialog v-model="showImagePreview" animate-from="bottom">
+                <div class="rounded-lg w-full max-w-6xl shadow-xl">
+                    <button
+                        @click="
+                            () => {
+                                showImagePreview = false
+                                imagePreview = null
+                            }
+                        "
+                        class="flex-center aspect-square rounded t-trans hover:scale-110"
+                    >
+                        <closeIcon class="w-10 text-light" />
+                    </button>
+                    <div
+                        class="w-full max-w-full aspect-video overflow-hidden mt-4 mx-auto sm:w-full sm:mt-2"
+                    >
+                        <img
+                            v-if="imagePreview"
+                            :src="imagePreview"
+                            alt=""
+                            class="w-full max-w-[90vw] object-contain block rounded-xl"
+                        />
+                    </div>
+                </div>
+            </AppDialog>
         </div>
     </section>
 </template>
 
 <script lang="ts" setup>
 import projectsJson from '@/assets/data/projects.json'
+import closeIcon from '@/assets/icons/close.svg'
 import { useRoute, useRouter } from 'vue-router'
-import { computed } from 'vue'
+import { computed, defineAsyncComponent, ref } from 'vue'
+const AppDialog = defineAsyncComponent(() => import('@/components/global/AppDialog.vue'))
 import { localPath } from '@/i18n/translation'
 const route = useRoute()
 const router = useRouter()
-
 const id = route.params.id
+
+const showImagePreview = ref<boolean>(false)
+const imagePreview = ref<string | null>(null)
 
 function getCurrentProject(id: string) {
     const project = projectsJson.find((project) => Number(project.id) === Number(id))

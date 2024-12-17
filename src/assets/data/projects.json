@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "مشروع إنشاء مصنع متكامل",
-        "images": [],
+        "images": ["main.webp", "main.webp", "main.webp", "main.webp", "main.webp"],
         "isSpecial": true,
         "sections": [],
         "overflows": [
@@ -39,7 +39,7 @@
     {
         "id": 2,
         "title": "مستودع تخزين صناعي",
-        "images": [],
+        "images": ["main.webp", "main.webp", "main.webp", "main.webp", "main.webp"],
         "isSpecial": true,
         "sections": [],
         "overflows": [
@@ -76,7 +76,7 @@
     {
         "id": 3,
         "title": "مبنى إداري حديث",
-        "images": [],
+        "images": ["main.webp", "main.webp", "main.webp", "main.webp", "main.webp"],
         "isSpecial": true,
         "sections": [],
         "overflows": [
@@ -117,7 +117,7 @@
     {
         "id": 4,
         "title": "مركز تجاري متكامل",
-        "images": [],
+        "images": ["main.webp", "main.webp", "main.webp", "main.webp", "main.webp"],
         "isSpecial": true,
         "sections": [],
         "overflows": [
@@ -155,7 +155,7 @@
     {
         "id": 5,
         "title": "هنجر صناعي ضخم",
-        "images": [],
+        "images": ["main.webp", "main.webp", "main.webp", "main.webp", "main.webp"],
         "isSpecial": true,
         "sections": [],
         "overflows": [
@@ -192,7 +192,7 @@
     {
         "id": 6,
         "title": "جسر معدني للمشاة",
-        "images": [],
+        "images": ["main.webp", "main.webp", "main.webp", "main.webp", "main.webp"],
         "isSpecial": true,
         "sections": [],
         "overflows": [
