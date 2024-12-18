@@ -8,7 +8,7 @@
                 {{ $t('outClients.description') }}
             </p>
             <ul class="grid grid-cols-4 gap-4 md:grid-cols-3 sm:grid-cols-2 sm:gap-2 mt-8">
-                <li v-for="item in 14" :key="item">
+                <li v-for="item in 16" :key="item">
                     <div
                         class="w-full h-full aspect-video rounded-xl overflow-hidden bg-white main-border flex-center"
                     >
