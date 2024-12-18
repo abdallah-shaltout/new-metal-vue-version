@@ -1,9 +1,9 @@
 <template>
     <main>
         <AppHeader />
-        <RouterView v-slot="{ Component, route }">
-            <Transition name="page-transition" mode="out-in">
-                <component :is="Component" :key="route.fullPath" />
+        <RouterView v-slot="{ Component }">
+            <Transition name="page-transition" appear>
+                <component :is="Component" />
             </Transition>
         </RouterView>
         <AppFooter />
