@@ -40,7 +40,7 @@
 
 <script lang="ts" setup>
 import ServiceJson from '@/assets/data/services.json'
-import { markRaw, defineAsyncComponent } from 'vue'
+import { computed, defineAsyncComponent } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 const { t } = useI18n()
