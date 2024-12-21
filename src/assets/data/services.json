@@ -1,0 +1,38 @@
+[
+    {
+        "id": "s-1",
+        "idx": 0,
+        "iconName": "puzzle",
+        "slug": "integrated-solutions"
+    },
+    {
+        "id": "s-2",
+        "idx": 1,
+        "iconName": "roof",
+        "slug": "metal-structures-and-warehouses"
+    },
+    {
+        "id": "s-3",
+        "idx": 2,
+        "iconName": "warehouse",
+        "slug": "canopy-and-truss-coverings"
+    },
+    {
+        "id": "s-4",
+        "idx": 3,
+        "iconName": "building-up",
+        "slug": "lightweight-floor-additions-and-construction"
+    },
+    {
+        "id": "s-5",
+        "idx": 4,
+        "iconName": "office-building",
+        "slug": "fixed-and-mobile-administrative-offices"
+    },
+    {
+        "id": "s-6",
+        "idx": 5,
+        "iconName": "leaf",
+        "slug": "agricultural-greenhouses"
+    }
+]

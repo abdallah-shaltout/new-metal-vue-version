@@ -3,7 +3,8 @@
         "home": "Home",
         "about_us": "About Us",
         "projects": "Our Projects",
-        "name": "New Metal"
+        "name": "New Metal",
+        "name-description": "Metal Construction"
     },
     "landing": {
         "vision_heading": "New Metal - Your Partner in Construction and Innovation",
@@ -71,36 +72,41 @@
         "mission_title": "Our Mission",
         "mission_description": "Our mission is to lead the metal construction industry by providing innovative services, exceptional quality, and an unwavering commitment to deadlines, ensuring the utmost client satisfaction.",
         "vision_title": "Our Vision",
-        "vision_description": "To become the first choice and most trusted partner in metal construction and contracting by adhering to global standards, fostering innovation, and implementing sustainable solutions that respect both the environment and society.",
-        "services": {
-            "heading": "Our Services",
-            "description": "We provide a wide range of specialized services in design and implementation using the latest technologies to meet our clients' needs with the highest quality standards.",
-            "list": [
-                {
-                    "heading": "Integrated Solutions",
-                    "description": "We offer comprehensive solutions covering all client needs in construction and design."
-                },
-                {
-                    "heading": "Supply and Installation of Metal Structures and Warehouses",
-                    "description": "We supply and install all types of metal structures, sheds, trusses, and warehouses."
-                },
-                {
-                    "heading": "Canopy and Truss Coverings",
-                    "description": "We provide and install all types of coverings required for sheds, trusses, and warehouses."
-                },
-                {
-                    "heading": "Lightweight Floor Additions and Construction",
-                    "description": "We execute prefabricated lightweight floor additions and constructions adhering to the highest standards."
-                },
-                {
-                    "heading": "Construction of Fixed and Mobile Administrative Offices",
-                    "description": "We design and execute fully equipped administrative offices, whether fixed or mobile."
-                },
-                {
-                    "heading": "Construction of Agricultural Greenhouses",
-                    "description": "We design and build agricultural greenhouses with complete setups to ensure optimal results."
-                }
-            ]
-        }
+        "vision_description": "To become the first choice and most trusted partner in metal construction and contracting by adhering to global standards, fostering innovation, and implementing sustainable solutions that respect both the environment and society."
+    },
+    "project_page": {
+        "heading": "Our Projects",
+        "description": "We take pride in presenting a diverse range of projects that showcase the breadth of our services and our commitment to exceptional quality.",
+        "read_more": "Show more"
+    },
+    "services": {
+        "heading": "Our Services",
+        "description": "We provide a wide range of specialized services in design and implementation using the latest technologies to meet our clients' needs with the highest quality standards.",
+        "list": [
+            {
+                "heading": "Integrated Solutions",
+                "description": "We offer comprehensive solutions covering all client needs in construction and design."
+            },
+            {
+                "heading": "Supply and Installation of Metal Structures and Warehouses",
+                "description": "We supply and install all types of metal structures, sheds, trusses, and warehouses."
+            },
+            {
+                "heading": "Canopy and Truss Coverings",
+                "description": "We provide and install all types of coverings required for sheds, trusses, and warehouses."
+            },
+            {
+                "heading": "Lightweight Floor Additions and Construction",
+                "description": "We execute prefabricated lightweight floor additions and constructions adhering to the highest standards."
+            },
+            {
+                "heading": "Construction of Fixed and Mobile Administrative Offices",
+                "description": "We design and execute fully equipped administrative offices, whether fixed or mobile."
+            },
+            {
+                "heading": "Construction of Agricultural Greenhouses",
+                "description": "We design and build agricultural greenhouses with complete setups to ensure optimal results."
+            }
+        ]
     }
 }

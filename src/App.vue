@@ -2,9 +2,9 @@
     <main>
         <AppHeader />
         <RouterView v-slot="{ Component }">
-            <Transition name="page-transition" appear>
+            <!-- <Transition name="page-transition" appear> -->
                 <component :is="Component" />
-            </Transition>
+            <!-- </Transition> -->
         </RouterView>
         <AppFooter />
     </main>

@@ -4,8 +4,8 @@
             <LandingSection />
             <AboutSection id="about" v-motion-pop-bottom />
             <ProjectsSection id="projects" v-motion-pop-bottom />
+            <ServicesSection id="services" v-motion-pop-bottom />
             <outClonetsSection />
-            <AnalyzeSection id="analyze" v-motion-pop-bottom />
             <WhyusSection id="whyus" v-motion-pop-bottom />
         </div>
     </section>
@@ -18,6 +18,7 @@ const ProjectsSection = defineAsyncComponent(() => import('@/components/home/Pro
 const outClonetsSection = defineAsyncComponent(
     () => import('@/components/home/OutClintSection.vue'),
 )
-const AnalyzeSection = defineAsyncComponent(() => import('@/components/home/AnalyzeSection.vue'))
+
+const ServicesSection = defineAsyncComponent(() => import('@/components/home/ServicesSection.vue'))
 const WhyusSection = defineAsyncComponent(() => import('@/components/home/WhyusSection.vue'))
 </script>

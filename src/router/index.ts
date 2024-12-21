@@ -22,15 +22,15 @@ const router = createRouter({
                     component: () => import('@/views/AboutView.vue'),
                 },
                 {
-                    path: 'projects',
+                    path: 'projects/:service?',
                     name: 'projects',
                     component: () => import('@/views/ProjectView.vue'),
                 },
-                {
-                    path: 'project/:id',
-                    name: 'projectDetails',
-                    component: () => import('@/views/ProjectDetailView.vue'),
-                },
+                // {
+                //     path: 'project/:id',
+                //     name: 'projectDetails',
+                //     component: () => import('@/views/ProjectDetailView.vue'),
+                // },
                 {
                     path: ':pathMatch(.*)*',
                     name: 'notFound',
