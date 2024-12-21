@@ -45,7 +45,7 @@ import { useI18n } from 'vue-i18n'
 import { RouterLink } from 'vue-router'
 const { t } = useI18n()
 
-const servicesList = markRaw(
+const servicesList = computed(() =>
     [...ServiceJson].map((ele) => {
         const { iconName, id, idx, slug } = ele
         return {
