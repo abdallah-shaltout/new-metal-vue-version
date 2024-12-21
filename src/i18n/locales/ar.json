@@ -26,13 +26,13 @@
             "title": "عميل",
             "label": "عدد عملائنا خلال السنة"
         },
-        "projects": {
+        "projectsThisYear": {
             "title": "مشروع",
             "label": "عدد مشاريعنا خلال السنة"
         },
-        "places": {
-            "title": "موقع",
-            "label": "عدد مواقعنا خلال السنة"
+        "allProjects": {
+            "title": "مشروع",
+            "label": "إجمالي عدد مشاريعنا"
         }
     },
     "projects": {

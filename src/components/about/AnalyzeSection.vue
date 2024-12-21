@@ -48,8 +48,8 @@ import NumberFlow from '@number-flow/vue'
 
 const cardsNumbers = reactive({
     clients: 0,
-    projects: 0,
-    places: 0,
+    projectsThisYear: 0,
+    allProjects: 0,
 })
 
 const cards = computed(() => [
@@ -60,16 +60,16 @@ const cards = computed(() => [
         title: t('analyze.clients.title'),
     },
     {
-        label: t('analyze.projects.label'),
-        value: cardsNumbers.projects,
+        label: t('analyze.projectsThisYear.label'),
+        value: cardsNumbers.projectsThisYear,
         icon: defineAsyncComponent(() => import('@/assets/icons/bulding.svg')),
-        title: t('analyze.projects.title'),
+        title: t('analyze.projectsThisYear.title'),
     },
     {
-        label: t('analyze.places.label'),
-        value: cardsNumbers.places,
-        icon: defineAsyncComponent(() => import('@/assets/icons/place.svg')),
-        title: t('analyze.places.title'),
+        label: t('analyze.allProjects.label'),
+        value: cardsNumbers.allProjects,
+        icon: defineAsyncComponent(() => import('@/assets/icons/bulding.svg')),
+        title: t('analyze.allProjects.title'),
     },
 ])
 
@@ -77,9 +77,9 @@ onMounted(() => {
     const observer = new IntersectionObserver(
         (entries) => {
             if (entries[0]?.isIntersecting) {
-                cardsNumbers.clients = Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000
-                cardsNumbers.projects = Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000
-                cardsNumbers.places = Math.floor(Math.random() * (5000 - 1000 + 1)) + 1000
+                cardsNumbers.clients = 10
+                cardsNumbers.projectsThisYear = 14
+                cardsNumbers.allProjects = 740
 
                 observer.disconnect()
             }

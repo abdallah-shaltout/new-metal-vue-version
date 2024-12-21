@@ -26,13 +26,13 @@
             "title": "Clients",
             "label": "Number of clients served this year"
         },
-        "projects": {
+        "projectsThisYear": {
             "title": "Projects",
             "label": "Number of projects completed this year"
         },
-        "places": {
-            "title": "Locations",
-            "label": "Number of locations covered this year"
+        "allProjects": {
+            "title": "Projects",
+            "label": "Total number of projects completed"
         }
     },
     "projects": {
