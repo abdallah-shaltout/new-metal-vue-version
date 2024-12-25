@@ -26,8 +26,8 @@
                 </button>
                 <img
                     loading="lazy"
-                    src="/images/landing-small.webp"
-                    class="w-full h-full object-cover rounded-2xl shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-75"
+                    src="/images/whyus.jpg"
+                    class="w-full h-full object-cover rounded-2xl object-top shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-90"
                 />
             </div>
         </div>
@@ -43,9 +43,13 @@
                 <div
                     class="w-[75vw] max-w-full aspect-video rounded-xl overflow-hidden mt-4 mx-auto sm:w-full sm:mt-2"
                 >
-                    <video controls controlsList="nodownload" class="w-full h-full">
-                        <source src="/videos/new-metal.mp4" type="video/mp4" />
-                    </video>
+                    <iframe
+                        src="https://player.vimeo.com/video/1041417986?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                        frameborder="0"
+                        allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+                        class="w-full h-full"
+                        title="مشروع الإدارة العامة للمخازن التابعة لشركة الصرف الصحي - نيو ميتال للإنشاءات المعدنية"
+                    ></iframe>
                 </div>
             </div>
         </AppDialog>
