@@ -26,7 +26,7 @@
                 </button>
                 <img
                     loading="lazy"
-                    src="/images/whyus.jpg"
+                    src="/images/whyus.webp"
                     class="w-full h-full object-cover rounded-2xl object-top shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-90"
                 />
             </div>
