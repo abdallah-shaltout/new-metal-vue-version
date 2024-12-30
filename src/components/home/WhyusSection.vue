@@ -81,9 +81,8 @@ const config = {
     transition: 500,
     itemsToScroll: 1,
     snapAlign: 'center',
-    autoplay: 5000,
+    autoplay: 10000,
     wrapAround: true,
-    loop: true,
 }
 
 const videosSections = markRaw([
