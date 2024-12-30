@@ -21,4 +21,6 @@ const outClonetsSection = defineAsyncComponent(
 
 const ServicesSection = defineAsyncComponent(() => import('@/components/home/ServicesSection.vue'))
 const WhyusSection = defineAsyncComponent(() => import('@/components/home/WhyusSection.vue'))
+import 'vue3-carousel/dist/carousel.css'
+
 </script>
