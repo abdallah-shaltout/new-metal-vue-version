@@ -1,6 +1,7 @@
 import i18n from '@/i18n'
 import type {
     NavigationGuardNext,
+    NavigationGuardNextCallback,
     RouteLocationAsRelativeGeneric,
     RouteLocationNormalizedGeneric,
     RouteLocationNormalizedLoadedGeneric,
@@ -71,6 +72,10 @@ function currentLocale(): Locale {
     return LocaleManager.getCurrentLocale()
 }
 
+function isSupportedLang(lang: string): boolean {
+    return languages.some((l) => l.code === lang)
+}
+
 function localPath(route: RouteLocationAsRelativeGeneric): RouteLocationAsRelativeGeneric {
     return {
         ...route,
@@ -88,6 +93,16 @@ function i18nRouteMiddleware(
 ) {
     const routeLang = to.params.locale as Locale
     const lang = routeLang ?? currentLocale()
+    if (!isSupportedLang(lang)) {
+        return next({
+            ...to,
+            name: 'home',
+            params: {
+                ...to.params,
+                locale: currentLocale(),
+            },
+        } as unknown as RouteLocationNormalizedGeneric)
+    }
     switchLanguage(lang)
 
     document.title = i18n.global.t('header.name')

@@ -15,7 +15,7 @@
                 </a>
             </div>
 
-            <Carousel v-bind="config" class="mt-14 effect-slider-1">
+            <Carousel v-bind="config" class="mt-14">
                 <Slide
                     v-for="item in videosSections"
                     :key="`whyus-spec-${item}`"
@@ -33,12 +33,18 @@
                         <img
                             loading="lazy"
                             :src="`/whyus-section/${item.image}`"
-                            class="w-full h-full object-cover object-center shadow-sm transition-all duration-500 ease-in-out group-hover:brightness-90"
+                            style="
+                                filter: brightness(0.92) contrast(1.2) saturate(1.45)
+                                    drop-shadow(0 0.25rem 0.5rem rgba(0, 0, 0, 0.2));
+                            "
+                            class="w-full h-full object-cover object-center shadow-sm transition-all duration-300 ease-in-out"
                         />
                     </div>
                 </Slide>
                 <template #addons>
-                    <Navigation class="sm:hidden" />
+                    <div class="sm:hidden">
+                        <Navigation />
+                    </div>
                 </template>
             </Carousel>
         </div>
@@ -79,6 +85,7 @@ const videoUrl = ref<string | null>(null)
 const config = {
     itemsToShow: 1,
     transition: 500,
+    gap: 20,
     itemsToScroll: 1,
     snapAlign: 'center',
     autoplay: 10000,

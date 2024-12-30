@@ -24,13 +24,20 @@
             </div>
 
             <Carousel v-bind="config" class="mt-14 effect-slider-1">
-                <Slide v-for="item in projectsCount" :key="`project-spec-${item}`">
+                <Slide
+                    v-for="item in projectsCount"
+                    :key="`project-spec-${item}`"
+                    class="rounded-2xl overflow-hidden"
+                >
                     <div
-                        class="w-full relative rounded-xl flex overflow-hidden group"
-                        style="aspect-ratio: 4/3"
+                        class="w-full relative flex overflow-hidden group aspect-[4/3] md:aspect-[3/2] sm:aspect-video"
                     >
                         <img
                             :src="`/special-projects/${item}.webp`"
+                            style="
+                                filter: brightness(0.9) contrast(1.15) saturate(1.35)
+                                    drop-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
+                            "
                             class="w-full h-full object-cover"
                         />
                     </div>
@@ -38,7 +45,9 @@
 
                 <template #addons>
                     <Pagination />
-                    <Navigation />
+                    <div class="sm:hidden">
+                        <Navigation />
+                    </div>
                 </template>
             </Carousel>
         </div>
@@ -46,7 +55,6 @@
 </template>
 
 <script lang="ts" setup>
-import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 import arrowTopIcon from '@/assets/icons/arrow-top.svg'
 import { ref } from 'vue'
